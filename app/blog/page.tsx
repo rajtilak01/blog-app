@@ -3,6 +3,7 @@ import { buttonVariants } from '@/components/ui/button';
 import Link from 'next/link';
 import fs from "fs";
 import matter from 'gray-matter';
+import Image from 'next/image';
 
 
 const dirContent = fs.readdirSync("content", "utf-8")
@@ -59,7 +60,9 @@ const Blog = () => {
         {blogs.map((blog, index) => (
           <div key={index} className="rounded-lg shadow-md overflow-hidden  dark:border-2">
             {/* Blog post image */}
-            <img src={blog.image} alt={blog.title} className="w-full h-64 object-cover" />
+            <Image src={blog.image} alt={blog.title} className="w-full h-64 object-cover" 
+            width={500}   // Set a suitable width for your image
+            height={500}/>
             
             {/* Blog post content */}
             <div className="p-4">
