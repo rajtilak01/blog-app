@@ -1,7 +1,7 @@
 import User from "@/models/User";
 import { NextRequest, NextResponse } from "next/server";
 import bcrypt from "bcrypt"
-//code for registering user
+
 export const registerUser = async (req: NextRequest) => {
   const { name, email, password } = await req.json();
 

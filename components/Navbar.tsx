@@ -104,22 +104,14 @@ const Navbar = () => {
                                         <div>
                                             <Button className="mx-1 text-xs" variant="outline">Login</Button>
                                             <Button className="mx-1 text-xs" variant="outline">Signup</Button>
-
                                         </div>
-
                                     </div>
                                 </SheetDescription>
                             </SheetHeader>
                         </SheetContent>
                     </Sheet>
-
                 </div>
-
-
             </div>
-
-
-
         </nav>
     );
 };

@@ -14,41 +14,6 @@ const blogs = dirContent.map(file=>{
     return data
 })
 
-
-// const blogs = [
-//   {
-//     title: 'First Blog',
-//     description: 'This is the first blog description.',
-//     slug: 'first-blog',
-//     date: '2023-10-01',
-//     author: 'John Doe',
-//     image: '/typescript.webp'
-//   },
-//   {
-//     title: 'Second Blog',
-//     description: 'This is the second blog description.',
-//     slug: 'second-blog',
-//     date: '2023-10-02',
-//     author: 'Jane Doe',
-//     image: 'https://images.pexels.com/photos/1181472/pexels-photo-1181472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-//   },
-//   {
-//     title: 'Second Blog',
-//     description: 'This is the second blog description.',
-//     slug: 'second-blog',
-//     date: '2023-10-02',
-//     author: 'Jane Doe',
-//     image: 'https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg'
-//   },
-//   // Add more blog objects here
-// ];
-
-/**
- * Blog component that renders a list of blog posts.
- * Each blog post includes an image, title, description, author, date, and a link to the full post.
- * 
- * @returns {JSX.Element} The rendered blog component.
- */
 const Blog = () => {
   return (
     <div className="container mx-auto p-4">
