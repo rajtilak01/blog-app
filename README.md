@@ -1,7 +1,6 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-
-A MERN-based Blog App where users can create, edit, delete, and read blog posts. The app includes authentication, rich text editing, and a user-friendly UI for seamless blogging.
+A MERN-Based Blog Application where users can create, edit, delete, and read blog posts. The app includes authentication, rich text editing, and a user-friendly UI for seamless blogging.
 
 ## Getting Started
 
